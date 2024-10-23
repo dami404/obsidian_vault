@@ -23,10 +23,9 @@
 		{"id":"daa2f2434e90f466","type":"text","text":"## [[Zerolog]]","x":-1140,"y":355,"width":176,"height":50},
 		{"id":"cf9991443e180017","type":"text","text":"# CLI","x":-810,"y":-390,"width":120,"height":70,"color":"6"},
 		{"id":"1beb59b743111655","type":"text","text":"## [[Map]]","x":457,"y":-680,"width":127,"height":50},
-		{"id":"1c99026f6e0ecbf0","type":"text","text":"## [[Структуры]]","x":520,"y":-605,"width":240,"height":50},
+		{"id":"1c99026f6e0ecbf0","type":"text","text":"## [[Структуры]]","x":280,"y":-605,"width":480,"height":50},
 		{"id":"d3ff2b7c630234f1","type":"text","text":"## [[Array]]","x":280,"y":-680,"width":142,"height":50},
 		{"id":"1f0740733a20f2c5","type":"text","text":"## [[Slice]]","x":618,"y":-680,"width":142,"height":38},
-		{"id":"1a9b7e2e4dd3c594","type":"text","text":"## [[make()]]","x":280,"y":-605,"width":220,"height":50},
 		{"id":"d1236e2b72b41aa0","type":"text","text":"## [[Вывод в терминал]]","x":280,"y":-840,"width":480,"height":50},
 		{"id":"597b8dc142322890","type":"text","text":"## [[Преобразование типов]]","x":280,"y":-760,"width":480,"height":50},
 		{"id":"44aa8a582bbb3ace","type":"text","text":"## [[Buffer]]","x":280,"y":-170,"width":220,"height":50},
@@ -59,7 +58,6 @@
 		{"id":"ee31ff662ae8684b","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"dcf7fc784e2e243a","toSide":"left","toEnd":"none"},
 		{"id":"8a63ef778a84add4","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"d1236e2b72b41aa0","toSide":"left","toEnd":"none"},
 		{"id":"bce208fc6007104d","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"d3ff2b7c630234f1","toSide":"left","toEnd":"none"},
-		{"id":"b6a8f1955e046981","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"1a9b7e2e4dd3c594","toSide":"left","toEnd":"none"},
 		{"id":"52240bc16fafc7d1","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"597b8dc142322890","toSide":"left","toEnd":"none"},
 		{"id":"57fcd68919a00a36","fromNode":"5cb1eb5cb6954104","fromSide":"top","toNode":"bbafeb94ac62a2d7","toSide":"bottom","toEnd":"none"},
 		{"id":"3d74521544e26efc","fromNode":"daf3a287ac73dc39","fromSide":"bottom","toNode":"5cb1eb5cb6954104","toSide":"top","toEnd":"none","color":"6"},
@@ -90,6 +88,7 @@
 		{"id":"0e16b4935cf962b6","fromNode":"bc55bf4476722892","fromSide":"right","toNode":"c6956d9a3334c402","toSide":"left","toEnd":"none","color":"6"},
 		{"id":"6c20ed7c1ce11c70","fromNode":"daf3a287ac73dc39","fromSide":"left","toNode":"ab733df7057d4b05","toSide":"right","toEnd":"none"},
 		{"id":"f4dab4aa8e24a47a","fromNode":"daf3a287ac73dc39","fromSide":"top","toNode":"5f5426ffce871825","toSide":"bottom","toEnd":"none"},
-		{"id":"5686d4404573fb23","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"69ac1befd05d8c95","toSide":"left","toEnd":"none"}
+		{"id":"5686d4404573fb23","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"69ac1befd05d8c95","toSide":"left","toEnd":"none"},
+		{"id":"e6616151f1ec173e","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"1c99026f6e0ecbf0","toSide":"left","toEnd":"none"}
 	]
 }
