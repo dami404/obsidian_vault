@@ -23,7 +23,7 @@
 		{"id":"daa2f2434e90f466","type":"text","text":"## [[Zerolog]]","x":-1140,"y":355,"width":176,"height":50},
 		{"id":"cf9991443e180017","type":"text","text":"# CLI","x":-810,"y":-390,"width":120,"height":70,"color":"6"},
 		{"id":"1beb59b743111655","type":"text","text":"## [[Map]]","x":457,"y":-680,"width":127,"height":50},
-		{"id":"1c99026f6e0ecbf0","type":"text","text":"## [[Структуры]]","x":280,"y":-605,"width":480,"height":50},
+		{"id":"1c99026f6e0ecbf0","type":"text","text":"## [[Struct]]","x":280,"y":-605,"width":480,"height":50},
 		{"id":"d3ff2b7c630234f1","type":"text","text":"## [[Array]]","x":280,"y":-680,"width":142,"height":50},
 		{"id":"1f0740733a20f2c5","type":"text","text":"## [[Slice]]","x":618,"y":-680,"width":142,"height":38},
 		{"id":"d1236e2b72b41aa0","type":"text","text":"## [[Вывод в терминал]]","x":280,"y":-840,"width":480,"height":50},
