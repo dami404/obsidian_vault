@@ -1,4 +1,6 @@
 ## If-else
+### Пример 1:
+
 ```go
 if name == "" {
 	return name, errors.New("empty name") 
@@ -7,18 +9,23 @@ if name == "" {
 }else{ 
 	return name, nil 
 } 
+```
+- `} else{` - обязательный **формат**
+- Условие может быть в скобках
 
+### Пример 2:
 
+```go
 if bool1, b1err := strconv.ParseBool(val1); b1err == nil{ 
 	fmt.Println("Parsed value:", bool1) 
 } else { 
 	fmt.Println("Cannot parse", val1) 
 }
 ```
-- `} else{` - обязательный **формат**
-- **Формат** для 2 примера: `if оператор инициализации ; выражение`
+-  **Формат**: `if оператор инициализации ; выражение`
 
 ## Switch-case
+
 ```go
 day := 4 
 switch day { 

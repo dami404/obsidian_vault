@@ -9,6 +9,18 @@ fmt.Println(sum) // 10 (1+2+3+4)
 ```
 - **Шаблон**: `начальное значение` ; `условие остановки` ; `пост-оператор`
 
+## Вложенные циклы
+
+```go
+adj := [2]string{"big", "tasty"} 
+fruits := [3]string{"apple", "orange", "banana"} 
+for i:=0; i < len(adj); i++ { 
+	for j:=0; j < len(fruits); j++ { 
+		fmt.Println(adj[i],fruits[j]) 
+	} 
+}
+```
+
 # While
 
 ``` go
@@ -27,6 +39,19 @@ for {
 	sum++ // повторяется вечно
 }
 fmt.Println(sum) // никогда не достигнет
+```
+
+# Do-while
+
+```go
+counter := 1
+for {
+	fmt.Println("Counter:", counter)
+	counter++
+	if counter > 3 {
+		break
+	}
+}
 ```
 
 # For-each
