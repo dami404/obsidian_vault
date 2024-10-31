@@ -8,7 +8,7 @@
 		{"id":"c6956d9a3334c402","type":"text","text":"# Тестирование","x":202,"y":720,"width":257,"height":80,"color":"6"},
 		{"id":"5cb1eb5cb6954104","type":"text","text":"# Мастеринг","x":-338,"y":-370,"width":227,"height":90,"color":"6"},
 		{"id":"871d64f85c927d13","type":"text","text":"## [[JSON]]","x":-293,"y":-245,"width":138,"height":50},
-		{"id":"daf3a287ac73dc39","type":"text","text":"# База","x":-199,"y":-730,"width":157,"height":80,"color":"6"},
+		{"id":"daf3a287ac73dc39","type":"text","text":"# База","x":-199,"y":-730,"width":139,"height":75,"color":"6"},
 		{"id":"ab5cfacd65e88697","type":"text","text":"## [[Gin]]","x":-344,"y":-44,"width":103,"height":50},
 		{"id":"7719a80a9d08ff21","type":"text","text":"## [[Beego]]","x":-515,"y":-44,"width":138,"height":50},
 		{"id":"a41b8dd32a463ba6","type":"text","text":"## [[Revel]]","x":-219,"y":-44,"width":133,"height":50},
@@ -41,17 +41,20 @@
 		{"id":"df5028069a035a5f","type":"text","text":"## [[Указатели]]","x":538,"y":-20,"width":222,"height":50},
 		{"id":"9b68f009aa940636","type":"text","text":"## [[Gorilla]]","x":301,"y":90,"width":176,"height":50},
 		{"id":"bbafeb94ac62a2d7","type":"text","text":"## [[Go модули]]","x":-500,"y":-555,"width":207,"height":50},
-		{"id":"99b40028c58f39cb","type":"text","text":"## [[Errors, Panic, Recover]]","x":-356,"y":-1025,"width":345,"height":50},
-		{"id":"5f5426ffce871825","type":"text","text":"## [[if-else, switch-case]]","x":-356,"y":-945,"width":345,"height":50},
-		{"id":"774783dbd437ac90","type":"text","text":"## [[defer]]","x":-161,"y":-1100,"width":150,"height":50},
-		{"id":"574b6512b07ef087","type":"text","text":"## [[Цикл For]]","x":-356,"y":-1100,"width":173,"height":50},
 		{"id":"69ac1befd05d8c95","type":"text","text":"## [[Работа с файлами]]","x":280,"y":-922,"width":480,"height":55},
 		{"id":"dcf7fc784e2e243a","type":"text","text":"## [[Функции]]","x":280,"y":-1000,"width":231,"height":50},
 		{"id":"cf20320ee5eaf368","type":"text","text":"## [[Packages]]","x":529,"y":-1000,"width":231,"height":50},
 		{"id":"ab733df7057d4b05","type":"text","text":" \n## [[Типы данных]]","x":-980,"y":-725,"width":391,"height":50},
 		{"id":"84cad7a2b1844f35","type":"text","text":" ## [[Объявление переменных]]","x":-980,"y":-805,"width":390,"height":50},
 		{"id":"6a7f68448ca970a1","type":"text","text":" \n## [[Базовый синтаксис]]","x":-980,"y":-890,"width":391,"height":50},
-		{"id":"7414c07a18cd7955","type":"text","text":" \n## [[Консольные команды]]","x":-980,"y":-650,"width":391,"height":50}
+		{"id":"7414c07a18cd7955","type":"text","text":" \n## [[Консольные команды]]","x":-980,"y":-650,"width":391,"height":50},
+		{"id":"8ba391e70f7e6424","type":"text","text":"# Фичи","x":15,"y":-1210,"width":140,"height":80,"color":"6"},
+		{"id":"e5e67e68ca16271a","type":"text","text":"## [[Новые структуры данных]]","x":-110,"y":-1370,"width":390,"height":50},
+		{"id":"207181c3ed565a3f","type":"text","text":"## [[Полезные пакеты]]","x":-110,"y":-1450,"width":390,"height":50},
+		{"id":"574b6512b07ef087","type":"text","text":"## [[Цикл For]]","x":-564,"y":-1260,"width":173,"height":50},
+		{"id":"774783dbd437ac90","type":"text","text":"## [[defer]]","x":-369,"y":-1260,"width":150,"height":50},
+		{"id":"99b40028c58f39cb","type":"text","text":"## [[Errors, Panic, Recover]]","x":-564,"y":-1185,"width":345,"height":50},
+		{"id":"5f5426ffce871825","type":"text","text":"## [[if-else, switch-case]]","x":-564,"y":-1105,"width":345,"height":50}
 	],
 	"edges":[
 		{"id":"08465904a107560a","fromNode":"daf3a287ac73dc39","fromSide":"left","toNode":"6a7f68448ca970a1","toSide":"right","toEnd":"none"},
@@ -91,6 +94,8 @@
 		{"id":"f4dab4aa8e24a47a","fromNode":"daf3a287ac73dc39","fromSide":"top","toNode":"5f5426ffce871825","toSide":"bottom","toEnd":"none"},
 		{"id":"5686d4404573fb23","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"69ac1befd05d8c95","toSide":"left","toEnd":"none"},
 		{"id":"e6616151f1ec173e","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"1c99026f6e0ecbf0","toSide":"left","toEnd":"none"},
-		{"id":"13b4b9afa1e61c95","fromNode":"7414c07a18cd7955","fromSide":"right","toNode":"daf3a287ac73dc39","toSide":"left","toEnd":"none"}
+		{"id":"13b4b9afa1e61c95","fromNode":"7414c07a18cd7955","fromSide":"right","toNode":"daf3a287ac73dc39","toSide":"left","toEnd":"none"},
+		{"id":"9aa2db2bdd2fb947","fromNode":"daf3a287ac73dc39","fromSide":"top","toNode":"8ba391e70f7e6424","toSide":"bottom","toEnd":"none","color":"6"},
+		{"id":"21b0563ce1924225","fromNode":"8ba391e70f7e6424","fromSide":"top","toNode":"e5e67e68ca16271a","toSide":"bottom","toEnd":"none"}
 	]
 }
