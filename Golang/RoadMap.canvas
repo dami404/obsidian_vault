@@ -47,13 +47,15 @@
 		{"id":"84cad7a2b1844f35","type":"text","text":" ## [[Объявление переменных]]","x":-980,"y":-805,"width":390,"height":50},
 		{"id":"6a7f68448ca970a1","type":"text","text":" \n## [[Базовый синтаксис]]","x":-980,"y":-890,"width":391,"height":50},
 		{"id":"7414c07a18cd7955","type":"text","text":" \n## [[Консольные команды]]","x":-980,"y":-650,"width":391,"height":50},
-		{"id":"8ba391e70f7e6424","type":"text","text":"# Фичи","x":15,"y":-1210,"width":140,"height":80,"color":"6"},
-		{"id":"e5e67e68ca16271a","type":"text","text":"## [[Новые структуры данных]]","x":-110,"y":-1370,"width":390,"height":50},
-		{"id":"207181c3ed565a3f","type":"text","text":"## [[Полезные пакеты]]","x":-110,"y":-1450,"width":390,"height":50},
-		{"id":"574b6512b07ef087","type":"text","text":"## [[Цикл For]]","x":-564,"y":-1260,"width":173,"height":50},
-		{"id":"774783dbd437ac90","type":"text","text":"## [[defer]]","x":-369,"y":-1260,"width":150,"height":50},
-		{"id":"99b40028c58f39cb","type":"text","text":"## [[Errors, Panic, Recover]]","x":-564,"y":-1185,"width":345,"height":50},
-		{"id":"5f5426ffce871825","type":"text","text":"## [[if-else, switch-case]]","x":-564,"y":-1105,"width":345,"height":50}
+		{"id":"574b6512b07ef087","type":"text","text":"## [[Цикл For]]","x":-980,"y":-1127,"width":180,"height":50},
+		{"id":"99b40028c58f39cb","type":"text","text":"## [[Errors, Panic, Recover]]","x":-980,"y":-1052,"width":391,"height":52},
+		{"id":"5f5426ffce871825","type":"text","text":"## [[if-else, switch-case]]","x":-980,"y":-972,"width":391,"height":50},
+		{"id":"774783dbd437ac90","type":"text","text":"## [[defer]]","x":-784,"y":-1127,"width":196,"height":50},
+		{"id":"207181c3ed565a3f","type":"text","text":"## [[Полезные пакеты]]","x":86,"y":-1579,"width":390,"height":50},
+		{"id":"e5e67e68ca16271a","type":"text","text":"## [[Новые структуры данных]]","x":86,"y":-1499,"width":390,"height":50},
+		{"id":"8ba391e70f7e6424","type":"text","text":"# Фичи","x":211,"y":-1339,"width":140,"height":80,"color":"6"},
+		{"id":"23df80ec60df1ad8","x":-553,"y":-1299,"width":424,"height":50,"type":"text","text":"## [[Аргументы командной строки]]"},
+		{"id":"f0308702e9e6c1c8","x":-553,"y":-1376,"width":424,"height":50,"type":"text","text":"## [[Переменные среды]]"}
 	],
 	"edges":[
 		{"id":"08465904a107560a","fromNode":"daf3a287ac73dc39","fromSide":"left","toNode":"6a7f68448ca970a1","toSide":"right","toEnd":"none"},
@@ -89,11 +91,14 @@
 		{"id":"485ce88675362794","fromNode":"f143bf074a6fbdbe","fromSide":"bottom","toNode":"bc55bf4476722892","toSide":"top","toEnd":"none","color":"6"},
 		{"id":"0e16b4935cf962b6","fromNode":"bc55bf4476722892","fromSide":"right","toNode":"c6956d9a3334c402","toSide":"left","toEnd":"none","color":"6"},
 		{"id":"6c20ed7c1ce11c70","fromNode":"daf3a287ac73dc39","fromSide":"left","toNode":"ab733df7057d4b05","toSide":"right","toEnd":"none"},
-		{"id":"f4dab4aa8e24a47a","fromNode":"daf3a287ac73dc39","fromSide":"top","toNode":"5f5426ffce871825","toSide":"bottom","toEnd":"none"},
 		{"id":"5686d4404573fb23","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"69ac1befd05d8c95","toSide":"left","toEnd":"none"},
 		{"id":"e6616151f1ec173e","fromNode":"daf3a287ac73dc39","fromSide":"right","toNode":"1c99026f6e0ecbf0","toSide":"left","toEnd":"none"},
 		{"id":"13b4b9afa1e61c95","fromNode":"7414c07a18cd7955","fromSide":"right","toNode":"daf3a287ac73dc39","toSide":"left","toEnd":"none"},
 		{"id":"9aa2db2bdd2fb947","fromNode":"daf3a287ac73dc39","fromSide":"top","toNode":"8ba391e70f7e6424","toSide":"bottom","toEnd":"none","color":"6"},
-		{"id":"21b0563ce1924225","fromNode":"8ba391e70f7e6424","fromSide":"top","toNode":"e5e67e68ca16271a","toSide":"bottom","toEnd":"none"}
+		{"id":"21b0563ce1924225","fromNode":"8ba391e70f7e6424","fromSide":"top","toNode":"e5e67e68ca16271a","toSide":"bottom","toEnd":"none"},
+		{"id":"9fea741965f0a15b","fromNode":"daf3a287ac73dc39","fromSide":"top","toNode":"23df80ec60df1ad8","toSide":"bottom","toEnd":"none"},
+		{"id":"213e8d76ce3d0679","fromNode":"daf3a287ac73dc39","fromSide":"left","toNode":"774783dbd437ac90","toSide":"right","toEnd":"none"},
+		{"id":"8994077001bdeecf","fromNode":"daf3a287ac73dc39","fromSide":"left","toNode":"99b40028c58f39cb","toSide":"right","toEnd":"none"},
+		{"id":"0261f59e20e588b4","fromNode":"daf3a287ac73dc39","fromSide":"left","toNode":"5f5426ffce871825","toSide":"right","toEnd":"none"}
 	]
 }
