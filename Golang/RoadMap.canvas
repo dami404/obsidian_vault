@@ -28,8 +28,7 @@
 		{"id":"1f0740733a20f2c5","type":"text","text":"## [[Slice]]","x":618,"y":-680,"width":142,"height":38},
 		{"id":"d1236e2b72b41aa0","type":"text","text":"## [[Вывод в терминал]]","x":280,"y":-840,"width":480,"height":50},
 		{"id":"597b8dc142322890","type":"text","text":"## [[Приведение типов]]","x":280,"y":-760,"width":480,"height":50},
-		{"id":"44aa8a582bbb3ace","type":"text","text":"## [[Buffer]]","x":280,"y":-170,"width":220,"height":50},
-		{"id":"71441e83684ca285","type":"text","text":"## [[Select]]","x":538,"y":-170,"width":222,"height":50},
+		{"id":"44aa8a582bbb3ace","type":"text","text":"## [[Buffer]]","x":280,"y":-170,"width":480,"height":50},
 		{"id":"afa9149d07a78986","type":"text","text":"## [[Mutex]]","x":280,"y":-95,"width":220,"height":50},
 		{"id":"fe106d2bf1260fd3","type":"text","text":"## [[Утверждение типа]]","x":280,"y":-390,"width":480,"height":50},
 		{"id":"355355a3ceb221d8","type":"text","text":"## [[Interface]]","x":278,"y":-325,"width":222,"height":50},
@@ -54,8 +53,8 @@
 		{"id":"207181c3ed565a3f","type":"text","text":"## [[Полезные пакеты]]","x":86,"y":-1579,"width":390,"height":50},
 		{"id":"e5e67e68ca16271a","type":"text","text":"## [[Новые структуры данных]]","x":86,"y":-1499,"width":390,"height":50},
 		{"id":"8ba391e70f7e6424","type":"text","text":"# Фичи","x":211,"y":-1339,"width":140,"height":80,"color":"6"},
-		{"id":"23df80ec60df1ad8","x":-553,"y":-1299,"width":424,"height":50,"type":"text","text":"## [[Аргументы командной строки]]"},
-		{"id":"f0308702e9e6c1c8","x":-553,"y":-1376,"width":424,"height":50,"type":"text","text":"## [[Переменные среды]]"}
+		{"id":"23df80ec60df1ad8","type":"text","text":"## [[Аргументы командной строки]]","x":-553,"y":-1299,"width":424,"height":50},
+		{"id":"f0308702e9e6c1c8","type":"text","text":"## [[Переменные среды]]","x":-553,"y":-1376,"width":424,"height":50}
 	],
 	"edges":[
 		{"id":"08465904a107560a","fromNode":"daf3a287ac73dc39","fromSide":"left","toNode":"6a7f68448ca970a1","toSide":"right","toEnd":"none"},
