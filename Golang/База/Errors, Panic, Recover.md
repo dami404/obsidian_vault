@@ -45,7 +45,7 @@ func SetUserAge(u *db.User, age int) error {
     }
 }
 ```
-- `Errorf` - специальный вывод для ошибок в [[Packages|пакете]] `fmt`
+- `Errorf` - специальный вывод для ошибок в [[Полезные пакеты#fmt|пакете]] `fmt`
 
 ## Panic
 
