@@ -74,3 +74,38 @@ fmt.Println(<-ch)
 - Позволяют писать в себя без блокировок
 - Одновременно в канале могут находиться столько элементов, сколько задали при объявлении канала. **НО** можно прочитать канал и продолжить запись в него
 
+
+# Select
+
+```go
+ch1 := make(chan string)
+ch2 := make(chan string)
+
+go func() {
+	for {
+		time.Sleep(500 * time.Millisecond)
+		ch1 <- "Прошло пол секунды"
+	}
+}()
+
+go func() {
+	for {
+		time.Sleep(500 * time.Millisecond)
+		ch2 <- "Прошло 2 секунды"
+	}
+}()
+
+for {
+	select {
+	case msg := <-ch1:
+		fmt.Println(msg)
+	case msg := <-ch2:
+		fmt.Println(msg)
+	default:
+		fmt.Println("Нисколько не прошло")
+		time.Sleep(1 * time.Millisecond)
+	}
+}
+```
+- Позволяет производить неблокирующее чтение из нескольких каналов
+- `default` - то же самое что и в [[if-else, switch-case#Switch-case|switch/case]]
