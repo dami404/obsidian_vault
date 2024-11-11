@@ -52,8 +52,9 @@ var wg sync.WaitGroup
 for _, n := range numbers {
 	wg.Add(1)
 	go func() {
+		defer wg.Done()
 		printIfOdd(n)
-		wg.Done()
+		
 	}()
 	wg.Wait()
 }
