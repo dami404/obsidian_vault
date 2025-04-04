@@ -12,7 +12,7 @@ type Vertex struct {
 ## Заполнение
 
 ```go
-v := Vertex{1, 2}
+v := Vertex{1, 2} // литерал структуры
 v.X = 4
 
 dog := struct {
