@@ -101,7 +101,7 @@ go func() {
 
 go func() {
 	for {
-		time.Sleep(500 * time.Millisecond)
+		time.Sleep(2000 * time.Millisecond)
 		ch2 <- "Прошло 2 секунды"
 	}
 }()
